@@ -152,8 +152,6 @@ def play_wordle():
     # Get the solution
     solution = get_solution(valid_words)
 
-    #print(solution) #for debugging
-
     # Initialize some variables
     remaining_attempts = 6
     incorrect_letters = ""
@@ -176,5 +174,3 @@ def play_wordle():
         print("Well done! You got the word " + solution)
     else:
         print("Better luck next time... the answer was: " + solution)
-
-play_wordle()
